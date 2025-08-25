@@ -95,6 +95,29 @@ Player 1: Question
 Player 2: CS50
 Player 1 wins!
 
+
+
+
+
+
+Scrabble Project
+
+How to Compile and Run
+
+
+
+gcc -o scrabble scrabble.c cs50.c
+./scrabble
+
+Key Notes
+
+Computes scores for words based on Scrabble letter values.
+
+Accepts input from two players and determines the winner.
+
+Handles uppercase and lowercase letters.
+
+Uses functions and arrays effectively.
 Player 1: Hello!
 Player 2: He llo
 Tie!
