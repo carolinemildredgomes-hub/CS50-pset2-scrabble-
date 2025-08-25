@@ -124,3 +124,58 @@ Tie!
 
     return total;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+# CS50 Scrabble
+
+![C](https://img.shields.io/badge/language-C-blue)
+![CS50](https://img.shields.io/badge/CS50-Harvard-red)
+
+## Description
+
+A C program that calculates and compares Scrabble scores for two players. Each letter has a point value, and the program sums the points in each player's word to determine the winner.
+
+---
+
+## How to Compile and Run
+
+1. Download `scrabble.c` from this repository.  
+2. Open a terminal and navigate to the folder containing `scrabble.c`.  
+3. Compile the program:
+
+```bash
+gcc -o scrabble scrabble.c cs50.c
+
+Run the program:
+./scrabble
+
+Enter words for Player 1 and Player 2 when prompted.
+
+Example
+Player 1: Hello
+Player 2: World
+Player 1 score: 8
+Player 2 score: 9
+Winner: Player 2
+
+Key Notes / Learning Outcomes
+
+Computes Scrabble scores for words.
+
+Handles uppercase and lowercase letters.
+
+Determines the winner or declares a tie.
+
+Demonstrates arrays, functions, loops, and conditionals.
+
+Introduces string manipulation and character processing.
